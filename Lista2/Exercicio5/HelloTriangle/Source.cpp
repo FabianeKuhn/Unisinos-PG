@@ -1,10 +1,10 @@
-/* Exercícios de Sistemas de Coordenadas e Câmera 2D  - Desenhar a mesma cena nos 4 quadrantes
+/* ExercÃ­cios de Sistemas de Coordenadas e CÃ¢mera 2D  - Desenhar a mesma cena nos 4 quadrantes
  *
  * Adaptado por Rossana Baptista Queiroz
- * Exercício 5 - Lista 2 - Fabiane Kuhn
- * para a disciplina de Processamento Gráfico - Ciência da Computação
- * Versão inicial: 21/03/2019
- * Última atualização em 24/03/2019
+ * ExercÃ­cio 5 - Lista 2 - Fabiane Kuhn
+ * para a disciplina de Processamento GrÃ¡fico - CiÃªncia da ComputaÃ§Ã£o
+ * VersÃ£o inicial: 21/03/2019
+ * Ãšltima atualizaÃ§Ã£o em 28/03/2019
  *
  */
 
@@ -15,7 +15,7 @@
 using namespace std;
 
 // GLEW
-//#define GLEW_STATIC //-- se habilitar, não precisa da dll
+//#define GLEW_STATIC //-- se habilitar, nÃ£o precisa da dll
 #include <GL/glew.h>
 
 // GLFW
@@ -26,7 +26,7 @@ using namespace std;
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-// Nossa classezinha que lê o arquivo de shader e o compila na OpenGL
+// Nossa classezinha que lÃª o arquivo de shader e o compila na OpenGL
 // Exemplo retirado de https://learnopengl.com/#!Getting-started/Shaders
 #include "Shader.h"
 
@@ -45,7 +45,7 @@ int main()
 	glfwInit();
 
 	// Create a GLFWwindow object that we can use for GLFW's functions
-	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Exercicio 2", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Exercicio 5", nullptr, nullptr);
 	glfwMakeContextCurrent(window);
 
 	// Set the required callback functions

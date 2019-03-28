@@ -1,1 +1,12 @@
-Lista 2 - Processamento Gr�fico
+Lista 2 - Processamento Gráfico
+
+A lista de exercícios 2 partiu de um código exemplo, existente na pasta "ProjecaoOrtografica". Todos as atividades foram propostas a partir do exemplo, sugerindo modificações.
+
+* Na pasta "Exercício1" está implementado um código que, a partir do exemplo existente na pasta "ProjecaoOrtografica", modifica a janela do mundo (window/ortho) para os limites: xmin=-10, xmax=10, ymin=-10, ymax=10.
+
+* Na pasta "Exercicio2" está implementado um código que modifica a janela para: xmin=0, xmax=800, ymin=600, ymax=0. Além disso, utilizando a câmera 2D do exercício anterior, desenha um cubo na tela. 
+
+* Na pasta "Exercício4" há um código que modifica o viewport para desenhar a cena apenas no segundo quadrante da janela de aplicação. 
+
+* Na pasta "Exercicio5" a mesma cena foi desenhada nos quatro quadrantes da janela. 
+

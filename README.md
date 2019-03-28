@@ -7,3 +7,8 @@ Os códigos estão organizados em projetos diferentes, um projeto por exercício
 - Na pasta "DoisTriangulos" está o projeto que realiza o desenho de dois triângulos na tela. Os shaders estão descritos no código Source.cpp, assim como o exercício anterior. A lógica está implementada no main e possui a indicação dos dois triângulos no array vertices, sendo que a utilização das vértices é feita pelo array indices, permitindo que dois triângulos sejam desenhados com a utilização de EBO. 
 - Na pasta "Circulo" está o projeto que realiza o desenho de um círculo na tela. Para desenhar a circunferência foi utilizada uma série de triângulos, cujas coordenadas foram calculadas através de equações de pitágoras. Os shaders estão no código Source.cpp. A função drawCircle é responsável por desenhar os triângulos que irão formar o círculo. Na game loop do código é chamada a função drawCircle. 
 - Na pasta "ArquivoShader" está o projeto em que os shaders estão em arquivos separados. O arquivo shader_s.h possui o código de leitura dos arquivos shader.frag e shader.vs e a compilação deles. A aplicação faz com que seja desenhado um triângulo na tela, semelhante ao exemplo de Hello Triangle. 
+
+
+*******************
+
+- Na pasta Lista2 estão os exercícios sugeridos na segunda lista da aula de processamento gráfico. As informações estão indicadas no arquivo "leia-me.txt"

@@ -1,10 +1,10 @@
-/* Exercícios de Sistemas de Coordenadas e Câmera 2D  - Desenhar a cena em apenas um quadrante
+/* ExercÃ­cios de Sistemas de Coordenadas e CÃ¢mera 2D  - Desenhar a cena em apenas um quadrante
  *
  * Adaptado por Rossana Baptista Queiroz
- * Exercício 4 - Lista 2 - Fabiane Kuhn
- * para a disciplina de Processamento Gráfico - Ciência da Computação
- * Versão inicial: 21/03/2019
- * Última atualização em 21/03/2019
+ * ExercÃ­cio 4 - Lista 2 - Fabiane Kuhn
+ * para a disciplina de Processamento GrÃ¡fico - CiÃªncia da ComputaÃ§Ã£o
+ * VersÃ£o inicial: 21/03/2019
+ * Ãšltima atualizaÃ§Ã£o em 21/03/2019
  *
  */
 
@@ -15,7 +15,7 @@
 using namespace std;
 
 // GLEW
-//#define GLEW_STATIC //-- se habilitar, não precisa da dll
+//#define GLEW_STATIC //-- se habilitar, nÃ£o precisa da dll
 #include <GL/glew.h>
 
 // GLFW
@@ -26,7 +26,7 @@ using namespace std;
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-// Nossa classezinha que lê o arquivo de shader e o compila na OpenGL
+// Nossa classezinha que lÃª o arquivo de shader e o compila na OpenGL
 // Exemplo retirado de https://learnopengl.com/#!Getting-started/Shaders
 #include "Shader.h"
 
@@ -45,7 +45,7 @@ int main()
 	glfwInit();
 
 	// Create a GLFWwindow object that we can use for GLFW's functions
-	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Exercicio 2", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "Exercicio 4", nullptr, nullptr);
 	glfwMakeContextCurrent(window);
 
 	// Set the required callback functions
@@ -121,7 +121,7 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		
-		//aqui recupera o tamanho atual da janela, para correção do aspect ratio mais tarde
+		//aqui recupera o tamanho atual da janela, para correÃ§Ã£o do aspect ratio mais tarde
 		glfwGetFramebufferSize(window, &width, &height);
 		glViewport(width / 2, height / 2, width / 2, height / 2);
 

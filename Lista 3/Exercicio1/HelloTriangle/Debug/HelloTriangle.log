@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (HelloTriangle.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SceneManager.cpp
+c:\users\fabia\documents\processamente grafico\lista3_fabiane\exercicio1\hellotriangle\scenemanager.cpp(134): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+  HelloTriangle.vcxproj -> C:\Users\fabia\Documents\Processamente Grafico\Lista3_Fabiane\Exercicio1\Debug\Transforms.exe

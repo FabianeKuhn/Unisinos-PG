@@ -1,0 +1,7 @@
+Lista de exercícios 3 - Fabiane Kuhn
+
+Os códigos estão organizados em projetos diferentes, um projeto por exercício. Todos os exercícios foram feitos com base no exemplo de HelloTexture apresentado em aula. Nessa lista, está sendo utilizada a GLAD. 
+
+- Na pasta "Exercício 1" está o projeto que realiza o desenho da mesma geometria 3 vezes na tela, aplicando diferentes transformações nela. 
+- Na pasta "Exercício 2" está o projeto que permite movimentar um triângulo pela tela utilizando as setas do teclado.
+- Na pasta "Exercício 3" está o projeto que representa um ScreenSaver, ou seja, movimenta automaticamente uma geometria pela tela e quando atinge os limites da tela, rebate para outra direção.

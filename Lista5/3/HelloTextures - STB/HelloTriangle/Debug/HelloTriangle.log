@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (HelloTriangle.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  SceneManager.cpp
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(234): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(341): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(342): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(346): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(347): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(349): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(350): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+h:\documentos do derick\unisinos\2019_1\pg\lista5_questao01_&_02 - copia\hellotextures - stb\hellotriangle\scenemanager.cpp(359): warning C4244: 'argumento': conversão de 'double' para 'float', possível perda de dados
+  HelloTriangle.vcxproj -> H:\Documentos do Derick\Unisinos\2019_1\PG\Lista5_Questao01_&_02 - Copia\HelloTextures - STB\Debug\Transforms.exe
